@@ -40,6 +40,12 @@ llm_models = {
         "model_name": "palm",
         "api_key": "GOOGLE_PALM_KEY",
     },
+    "cllama34p": {
+        "engine_name": "replicate",
+        "model_name": "cllama34p",
+        "api_key": "REPLICATE_API_TOKEN",
+        "replicate_model": "replicate/codellama-34b-python:9048743d22a7b19cd0abb018066809ea6af4f2b4717bef9aad3c5ae21ceac00d"
+    }
 }
 
 
